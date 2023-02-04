@@ -1,4 +1,4 @@
 # Members of this Chat-App project are:
-@prathamkumar1218
+@prathamkumar1812
 @shashwatSaran
 @sonigaurav950
