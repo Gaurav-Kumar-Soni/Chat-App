@@ -5,8 +5,8 @@ A real-time chat application for Android.
 ## Team Members
 - Prathamkkumar1812
 - ShashwatSaran
-- Sonigaurav950
-
+- sonigaurav950
+- RuchiKhandelwal
 ## About
 This chat application allows users to send and receive messages in real-time. It is built using cutting-edge technologies and provides a fast and reliable communication experience.
 
