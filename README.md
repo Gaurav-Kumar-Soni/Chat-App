@@ -25,5 +25,3 @@ To run this project, you will need to have Android Studio installed on your comp
 ## Contributing
 If you'd like to contribute to the project, please reach out to one of the team members. We welcome all contributions, big or small!
 
-## License
-This project is not under any licensed yet.
