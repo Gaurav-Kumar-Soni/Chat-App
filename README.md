@@ -3,7 +3,7 @@
 A real-time chat application for Android.
 
 ## Team Members
-- Prathamkkumar1812
+- Prathamkkumar1804
 - ShashwatSaran
 - Sonigaurav950
 
