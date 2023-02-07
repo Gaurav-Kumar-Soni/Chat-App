@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Page"
+    android:background="#D9D9D9">
+
+
+
+
+
+    <LinearLayout
+        android:background="@drawable/background"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal" />
+    <LinearLayout
+        android:padding="36dp"
+        android:gravity="center"
+        android:background="@drawable/background_for_loginpage"
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="525dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+           android:hint="Full Name" />
+
+        <EditText
+            android:hint="Email"
+            android:layout_margin="10dp"
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <EditText
+            android:hint="Phone"
+            android:layout_margin="10dp"
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="182dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/button_backgound"
+            android:text="@string/login" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+
