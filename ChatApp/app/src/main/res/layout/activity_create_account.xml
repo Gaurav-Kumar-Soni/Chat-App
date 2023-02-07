@@ -4,11 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login_Page"
+    tools:context=".Create_Account"
     android:background="#D9D9D9">
-
-
-
 
 
     <LinearLayout
@@ -36,41 +33,60 @@
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="vertical" >
 
-
-
         <EditText
+            android:padding="8dp"
             android:background="@drawable/text_bacground"
-            android:hint="@string/email_phone"
             android:layout_margin="10dp"
-            android:padding="5dp"
-            android:textSize="12sp"
-            android:id="@+id/editTextPhone"
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="match_parent"
             android:layout_height="39dp"
             android:ems="10"
-            android:inputType="textEmailAddress"  />
+            android:inputType="textPersonName"
+            android:hint="Full Name" />
 
         <EditText
-            android:background="@drawable/text_bacground"
-            android:textSize="12sp"
-            android:padding="5dp"
-            android:hint="@string/password"
+            android:padding="8dp"
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
             android:layout_margin="10dp"
+            android:background="@drawable/text_bacground"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="phone" />
+
+        <EditText
+            android:padding="8dp"
             android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_bacground"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:padding="8dp"
+            android:background="@drawable/text_bacground"
+            android:hint="Passward"
+            android:layout_margin="10dp"
+            android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="39dp"
             android:ems="10"
             android:inputType="textPassword" />
 
         <TextView
-            android:textColor="#23293C"
+
             android:textStyle="bold"
             android:layout_margin="10dp"
-            android:gravity="end"
+            android:gravity="center"
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/forgot_password" />
+            android:text="Already have an account Sing in" />
 
         <Button
             android:id="@+id/button"
@@ -78,18 +94,6 @@
             android:layout_height="31dp"
             android:layout_marginTop="42dp"
             android:background="@drawable/button_backgound"
-            android:text="@string/login" />
-
-        <TextView
-            android:layout_width="240dp"
-            android:layout_height="20dp"
-            android:layout_margin="50dp"
-            android:gravity="center"
-
-            android:text="Don't have and account? Sign up"
-            android:textColor="#23293C"
-            android:textStyle="bold" />
+            android:text="@string/create_account" />
     </LinearLayout>
-
 </android.support.constraint.ConstraintLayout>
-
