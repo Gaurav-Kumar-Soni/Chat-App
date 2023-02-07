@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">ChatApp</string>
     <string name="create_account">Create Account</string>
-    <string name="login">Login</string>
+    <string name="login">Log in</string>
+    <string name="password">Passward</string>
+    <string name="email_phone">Phone number, username or email</string>
+    <string name="forgot_password">Forgot password ?</string>
 </resources>
