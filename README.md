@@ -1,4 +1,4 @@
-# Chat-App
+# Chat-App  (Currently in constructive Mode...)
 
 A real-time chat application for Android.
 
